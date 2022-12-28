@@ -1,12 +1,17 @@
 # Variational-autoencoder
-VAE for embankment settlement and pore water pressure predictions
+Variational autoencoder for embankment settlement and pore water pressure predictions.
 
-MO_simulated to M3_simulated: Simulated embankment center settlement
+Reference: Lo, M. K., Loh, D. R., Chian, S. C., & Ku, T. (2023). Probabilistic Prediction of Consolidation Settlement and Pore Water Pressure Using Variational Autoencoder Neural Network. Journal of Geotechnical and Geoenvironmental Engineering, 149(1), https://doi.org/10.1061/JGGEFK.GTENG-10555.
 
-VWP6b_simulated, VWP6c_simulated: Simulated excess pore water pressure under the embankment
+Contact email: man-kong.lo@polyu.edu.hk
 
-HPG1_1_simulated to HPG1_3_simulated: Simulated settlement across embankment width
+Variational_autoencoder_embankment.ipynb: Code for training the variational autoencoder.
 
-soil_parameters: Soil parameters adopted for the Monte Carlo Simulation
+MO_simulated.csv; M1_simulated.csv; M2_simulated.csv; M3_simulated.csv: 300 simulated cases of settlement under the embankment center. 
 
-Variational_autoencoder_embankment.ipynb: Code for training variational autoencoder
+VWP6b_simulated.csv; VWP6c_simulated: 300 simulated cases of excess porewater pressure under the embankment center.
+
+HPG1_1_simulated.csv; HPG1_2_simulated.csv; HPG1_3_simulated: 300 simulated cases of settlement across the embankment width. The dates are 6 Jan 2014, 23 Oct 2014 and 26 Jul 2016 respectively.
+
+soil_parameters.csv: Soil parameters adopted for the simulation of embankment response.
+
